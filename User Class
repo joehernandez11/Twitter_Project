@@ -1,0 +1,42 @@
+using System;
+
+namespace Twitter_Project
+{
+	class User
+	{
+		private string name, username, email;      //here I decided to include the essential information needed when making an account
+
+		public User(string name,string username,string email)
+		{
+			this.name = name;
+			this.username = username;
+			this.email = email;
+		}
+
+		public string GetName()
+		{
+			return name;
+		}
+
+		public string GetUsername()
+		{
+			return username;
+		}
+
+		public string GetEmail()
+		{
+			return email;
+		}
+
+		public void SetUsername(string NewUsername)      //name does not get a setter because people don't usually change names.
+		{
+			username = NewUsername;
+		}
+
+		public void SetEmail(string NewEmail)
+		{
+			email = NewEmail;
+		}
+	}
+}
+
