@@ -4,7 +4,7 @@ namespace Twitter_Project
 {
 	class User
 	{
-		private string name, username, email;      //here I decided to include the essential information needed when making an account
+		private string name, username, email;      //here I included the essential information needed when making an account
 
 		public User(string name,string username,string email)
 		{
