@@ -7,5 +7,5 @@ ReadMe
   
   After some initial thoughts and/or possible theories of how to start, I have concluded that the best route would be just to start somewhere and observe the course in which it proceeds. 
   
-  I will begin by implementing some List(s) to break down the text into sections and possibly varify each section. Some will be words while others will be useres or mentions or topics.
+  I will begin by implementing some List(s) to break down the text into sections and possibly varify each section. Some will be words while others will be users or mentions or topics.
 
