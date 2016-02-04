@@ -1,0 +1,18 @@
+using System;
+using NUnit.Framework;
+
+namespace Twitter_Project
+{
+	public class User_Tests
+	{
+		public static void Main()
+		{
+			//[Test()]
+
+				User j = new User ("Joe","joeysar","joe@luc.edu");
+				Assert.IsTrue(j.GetName () == "Joe");
+				Assert.IsTrue (j.GetUsername () == "joeysar");
+				Assert.IsTrue (j.GetEmail () == "joe@luc.edu");
+		}
+	}
+}
