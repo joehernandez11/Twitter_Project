@@ -9,3 +9,5 @@ ReadMe
   
   I will begin by implementing some List(s) to break down the text into sections and possibly varify each section. Some will be words while others will be users or mentions or topics.
 
+
+All references and aid came from the introduction to Computer Science in C# textbook. It was of great help to reference that text to accurately format (remember how to format) the code.
