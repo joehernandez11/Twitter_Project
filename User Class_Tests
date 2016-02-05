@@ -1,5 +1,6 @@
 using System;
-using NUnit.Framework;
+using NUnit.Framework; 
+using System.Collections.Generic;
 
 namespace Twitter_Project
 {
@@ -9,10 +10,13 @@ namespace Twitter_Project
 		{
 			//[Test()]
 
-				User j = new User ("Joe","joeysar","joe@luc.edu");
-				Assert.IsTrue(j.GetName () == "Joe");
-				Assert.IsTrue (j.GetUsername () == "joeysar");
-				Assert.IsTrue (j.GetEmail () == "joe@luc.edu");
+			User j = new User ("Joe","joeysar","joe@luc.edu");
+			Assert.IsTrue(j.GetName () == "Joe");
+			Assert.IsTrue (j.GetUsername () == "joeysar");
+			Assert.IsTrue (j.GetEmail () == "joe@luc.edu");
+
+			Messager m = new Messager ("Hello World");
+
 		}
 	}
 }
