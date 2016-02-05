@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+
+namespace Twitter_Project
+{
+	class Message
+	{
+		private string line;
+
+		public Message(string line)
+		{
+			this.line = line;
+			line = Console.ReadLine ();
+			List <string> words = new List<string> (line.Split (" "));
+
+
+
+		}
+	}
+}
