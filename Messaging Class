@@ -9,12 +9,14 @@ namespace Twitter_Project
 
 		public Message(string line)
 		{
+			//line = Console.ReadLine();
 			this.line = line;
-			line = Console.ReadLine ();
-			List <string> words = new List<string> (line.Split (" "));
-
-
-
+			//List <string> words = new List<string> ();
+			string[] words = line.Split (' ');
+			for (int x = 0; x < words.Length; x++) 
+			{
+				Console.WriteLine (words [x]);
+			}
 		}
 	}
 }
