@@ -1,20 +1,25 @@
-Class URL
+using System;
+
+namespace Twitter_Project
 {
-  private string url;
- 
-public URL(sting url)
-  {
-     this.url = url;
-  }
+	class URL
+	{
+		private string url;
 
-public string Geturl()
-  {
-    Return url;
-  }
+		public URL(string url)
+		{
+			this.url = url;
+		}
 
-public void Seturl(string newurl)
-  { 
-     url = newurl;
-  }
+		public string Geturl()
+		{
+			return url;
+		}
 
+		public void Seturl(string newurl)
+		{ 
+			url = newurl;
+		}
+
+	}
 }
