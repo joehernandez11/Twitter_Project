@@ -8,15 +8,17 @@ namespace Twitter_Project
 		private string line;
 
 		public Message(string line)
-		{
-			//line = Console.ReadLine();
-			this.line = line;
-			//List <string> words = new List<string> ();
-			string[] words = line.Split (' ');
+		{                                        // the idea here was to read the line into "line"
+			//line = Console.ReadLine();        
+			this.line = line;                        
+			//List <string> words = new List<string> ();    //then somehow either array or list break it down into words
+			string[] words = line.Split (' ');              //then put the words into said array or list
 			for (int x = 0; x < words.Length; x++) 
 			{
 				Console.WriteLine (words [x]);
-			}
+			}                                               //thought it would be the best approach
+			                                                //perhaps implement a character counter for the max
+			                                                
 		}
 	}
 }
