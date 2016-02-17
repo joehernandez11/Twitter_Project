@@ -9,9 +9,9 @@ namespace Twitter_Project
 		private int MAX = 140;
 
 		public Message(string line)
-		{                                                   // the idea here was to read the line into "line"
-			//line = Console.ReadLine();        
+		{                                                   // the idea here was to read the line into "line"       
 			this.line = line;
+			Console.WriteLine (line.Length + "/140");       //Testing purposes only. Showing the #of characters over the MAX# of characters allowed.
 			if (line.Length > MAX)                          // tweet too long! MAX = 140 Characters.
 			{
 				Console.WriteLine ("Tweet too long!");
