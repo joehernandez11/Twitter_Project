@@ -14,8 +14,7 @@ namespace Twitter_Project
 			Assert.IsTrue(j.GetName () == "Joe");
 			Assert.IsTrue (j.GetUsername () == "joeysar");
 			Assert.IsTrue (j.GetEmail () == "joe@luc.edu");
-
-			Messager m = new Messager ("Hello World");
+			Message m = new Message ("Hello World");
 
 		}
 	}
