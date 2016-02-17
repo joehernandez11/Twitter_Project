@@ -10,11 +10,9 @@ namespace Twitter_Project
 		{
 			//[Test()]
 
-			User j = new User ("Joe","joeysar","joe@luc.edu");
-			Assert.IsTrue(j.GetName () == "Joe");
+			User j = new User ("joeysar");
 			Assert.IsTrue (j.GetUsername () == "joeysar");
-			Assert.IsTrue (j.GetEmail () == "joe@luc.edu");
-			Message m = new Message ("Hello World");
+			Message m = new Message ("This is the end of the line #bub!");
 
 		}
 	}
